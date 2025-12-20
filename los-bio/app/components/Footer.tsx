@@ -9,18 +9,18 @@ import Logo from "../../public/svg/logo.svg";
 const Footer = () => {
   return (
     <footer className="w-screen h-116 flex justify-center items-center">
-      <div className="w-[101.25rem] h-71.5 flex justify-between">
+      <div className="w-[73.0625rem] h-71.5 flex justify-between">
         {/* LOS-BIO */}
         <div className="w-[15rem] h-[10.375rem] flex flex-col justify-between">
           <Link href="../">
-				<Image
-				  src={Logo}
-				  alt="Logo"
-				  width={240}
-				  height={58}
-				  className="w-[15rem] h-[3.625rem]"
-				/>
-			 </Link>
+            <Image
+              src={Logo}
+              alt="Logo"
+              width={240}
+              height={58}
+              className="w-[15rem] h-[3.625rem]"
+            />
+          </Link>
           <div className="w-full h-fit flex flex-col gap-3">
             <h4 className="font-semibold text-sm/[141%]">
               ООО «ТОРГОВЫЙ ДОМ «ЛОС-БИО»
@@ -83,7 +83,7 @@ const Footer = () => {
         {/* Contacts */}
         <div className="w-fit h-fit flex flex-col gap-6.25">
           <h2 className="font-semibold text-lg/[141%] uppercase">Контакты</h2>
-			 <div className="flex items-center gap-1.25">
+          <div className="flex items-center gap-1.25">
             <svg
               width="24"
               height="24"
@@ -154,7 +154,7 @@ const Footer = () => {
             </svg>
             <p className="cursor-pointer">Заказать звонок</p>
           </div>
-			 <Button>Получить КП</Button>
+          <Button>Получить КП</Button>
         </div>
       </div>
     </footer>

@@ -5,13 +5,14 @@ import "../globals.css";
 import Button from "./Button";
 
 //images
-import Logo from "../../public/svg/logo.svg"
+import Logo from "../../public/svg/logo.svg";
 
 const Header = () => {
   return (
     <header className="w-screen h-[8.625rem] flex relative flex-col mx-[8.4375rem] gap-4.5">
-      <div className="w-screen h-fit flex border-b-[#FFFFFF26] border-b">
-        <div className="w-[101.25rem] h-10.5 pt-2.25 pb-2.25 flex justify-between items-center [&_p]:text-[0.8125rem]/[141%] text-[#ffffff71] [&_a]:text-[0.8125rem]/[141%]">
+      {/* top nav */}
+      <div className="w-screen h-fit flex">
+        <div className="w-[73.0625rem] h-10.5 pt-2.25 pb-2.25 flex justify-between items-center [&_p]:text-[0.8125rem]/[141%] text-[#ffffff71] [&_a]:text-[0.8125rem]/[141%]">
           <div className="flex items-center gap-1.25">
             <svg
               width="24"
@@ -103,19 +104,34 @@ const Header = () => {
           </div>
         </div>
       </div>
-		{/* Нижняя часть */}
-		<div className='flex justify-between items-center w-[101.25rem] h-fit'>
-			<Link href="../">
-				<Image src={Logo} alt='Logo' width={240} height={58} className='w-60 h-14.5'/>
-			</Link>
-			<nav className='w-fit flex gap-14'>
-				<Link className='hover:text-[#1078D7]' href="./AboutCompany">О компании</Link>
-				<Link className='hover:text-[#1078D7]' href="./Projects">Проекты</Link>
-				<Link className='hover:text-[#1078D7]' href="./Catalog">Каталог</Link>
-				<Link className='hover:text-[#1078D7]' href="./Contacts">Контакты</Link>
-			</nav>
-			<Button>Получить КП</Button>
-		</div>
+		<div className='lineNav'></div>
+      {/* Нижняя часть */}
+      <div className="flex justify-between items-center w-[73.0625rem] h-fit">
+        <Link href="../">
+          <Image
+            src={Logo}
+            alt="Logo"
+            width={240}
+            height={58}
+            className="w-60 h-14.5"
+          />
+        </Link>
+        <nav className="w-fit flex gap-14">
+          <Link className="hover:text-[#1078D7]" href="./AboutCompany">
+            О компании
+          </Link>
+          <Link className="hover:text-[#1078D7]" href="./Projects">
+            Проекты
+          </Link>
+          <Link className="hover:text-[#1078D7]" href="./Catalog">
+            Каталог
+          </Link>
+          <Link className="hover:text-[#1078D7]" href="./Contacts">
+            Контакты
+          </Link>
+        </nav>
+        <Button>Получить КП</Button>
+      </div>
     </header>
   );
 };
