@@ -12,7 +12,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   heading,
 }) => {
   return (
-    <div className="w-94.25 h-fit bg-[#1215237D] p-9.5 flex flex-col gap-7 border border-(--gradient-border) rounded-[1.1875rem]">
+    <div
+      className="w-94.25 h-fit bg-[#1215237D] p-9.5 flex flex-col gap-7 border border-[#ffffff80] rounded-[1.1875rem]"
+    >
       <Image
         src={imageSrc}
         alt={altText}
@@ -32,7 +34,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         </p>
         <div className="line"></div>
         <p>
-          <span>Тип работы:</span> Строительство станции биологической очистки
+          <span>Заказчик: </span> ИП Иван Васильев
         </p>
       </div>
     </div>

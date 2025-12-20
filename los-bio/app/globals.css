@@ -2,7 +2,7 @@
 
 :root {
   --box-shadow: 0.4375rem 0.25rem 1.6938rem #0000000a;
-  --gradient-border: linear-gradient(45deg, #ffffff, #ffffff00);
+  --gradient-border: linear-gradient(to bottom right, #ffffff, #ffffff00);
 }
 /*
 @theme inline {
