@@ -3,7 +3,7 @@
 export default function Catalog() {
 	return(
 		<div>
-			<h1>Каталог</h1>
+			<h1 className="page-name">Страница: Каталог</h1>
 		</div>
 	)
 }

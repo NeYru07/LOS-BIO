@@ -3,7 +3,7 @@
 export default function Contacts() {
 	return(
 		<div>
-			<h1>Контакты</h1>
+			<h1 className="page-name">Страница: Контакты</h1>
 		</div>
 	)
 }

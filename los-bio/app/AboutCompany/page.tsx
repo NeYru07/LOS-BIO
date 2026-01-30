@@ -1,9 +1,9 @@
 "use client"
 
-export default function AboutCompany() {
+export default function aboutcompany() {
 	return(
 		<div>
-			<h1>О компании</h1>
+			<h1 className="page-name">Страница: О компании</h1>
 		</div>
 	)
 }

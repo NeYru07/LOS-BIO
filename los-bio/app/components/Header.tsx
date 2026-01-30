@@ -117,16 +117,16 @@ const Header = () => {
           />
         </Link>
         <nav className="w-fit flex gap-14">
-          <Link className="hover:text-[#1078D7]" href="./AboutCompany">
+          <Link className="hover:text-[#1078D7]" href="/AboutCompany">
             О компании
           </Link>
-          <Link className="hover:text-[#1078D7]" href="./Projects">
+          <Link className="hover:text-[#1078D7]" href="/Projects">
             Проекты
           </Link>
-          <Link className="hover:text-[#1078D7]" href="./Catalog">
+          <Link className="hover:text-[#1078D7]" href="/Catalog">
             Каталог
           </Link>
-          <Link className="hover:text-[#1078D7]" href="./Contacts">
+          <Link className="hover:text-[#1078D7]" href="/Contacts">
             Контакты
           </Link>
         </nav>

@@ -8,7 +8,7 @@ import Logo from "../../public/svg/logo.svg";
 
 const Footer = () => {
   return (
-    <footer className="w-screen h-116 flex justify-center items-center">
+    <footer className="w-screen h-116 flex justify-center items-center bg-[#090B1A]">
       <div className="w-[73.0625rem] h-71.5 flex justify-between">
         {/* LOS-BIO */}
         <div className="w-[15rem] h-[10.375rem] flex flex-col justify-between">
