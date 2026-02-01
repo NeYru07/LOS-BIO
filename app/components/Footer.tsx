@@ -37,25 +37,25 @@ const Footer = () => {
           <nav className="w-fit flex flex-col gap-5">
             <Link
               className="text-[#FFFFFFCC] hover:text-[#1078D7]"
-              href="./AboutCompany"
+              href="/AboutCompany"
             >
               О компании
             </Link>
             <Link
               className="text-[#FFFFFFCC] hover:text-[#1078D7]"
-              href="./Projects"
+              href="/Projects"
             >
               Проекты
             </Link>
             <Link
               className="text-[#FFFFFFCC] hover:text-[#1078D7]"
-              href="./Catalog"
+              href="/Catalog"
             >
               Каталог
             </Link>
             <Link
               className="text-[#FFFFFFCC] hover:text-[#1078D7]"
-              href="./Contacts"
+              href="/Contacts"
             >
               Контакты
             </Link>
